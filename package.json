@@ -1,0 +1,25 @@
+{
+  "name": "dyfactor-angle-bracket-components",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "dyfactor": {
+    "name": "angle-bracket-components",
+    "type": "template",
+    "levels": [
+      "extract",
+      "modify"
+    ]
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.0"
+  },
+  "dependencies": {
+    "@glimmer/syntax": "^0.35.1",
+    "dyfactor": "^0.4.1",
+    "ember-template-recast": "^1.1.3",
+    "pascal-case": "^2.0.1"
+  }
+}
